@@ -12,9 +12,9 @@ body{
     padding: 0;}
 
 .container{
-    padding-bottom: 1.25em;
-    border: 0.25em solid darkslategray;
-    height:auto;
+  
+    
+    height:100%;
   
     min-width: 100%;
     max-width: 100%	;
@@ -22,7 +22,7 @@ body{
     flex-direction:column; 
     margin: 0em auto; 
     text-align: center;
-    	
+    border: 0.25em solid darkslategray;
 }
 h1,h2,h3,h4,h5{
 	    font-family: 'Lato', sans-serif;	
@@ -44,7 +44,7 @@ h4{
 }
 
 
-.inputLabel,.inputRow{
+.inputRow{
     
     width: 90%;
     height: auto;
@@ -52,8 +52,10 @@ h4{
     border: 1px solid purple;
 }
 .inputLabel{
-    display: inline-flex;
-    justify-content: center;
+    display:    flex;
+    ;
+    justify-content: space-evenly;
+    height: 90%;
     width: 90%;
     padding: 1em;
     margin: 0em 2em;
@@ -62,6 +64,8 @@ h4{
 }
 .input{
     border: 1px solid red; 
+    height: 100%;
+    width: 100%;
    
 }
 
@@ -76,7 +80,9 @@ h4{
     border:1px solid green;
 margin: 0;
 padding: 0;
-transform: translateX(2em);
+
+height: 100%;
+width: 100%;
     
 }
 .label,.input{
@@ -108,7 +114,7 @@ label{
    
    min-width: 45%;
    max-width: 75%;
-   transform: translateX(2.5em);
+ 
     /* margin-top:0.625em;	
 
     margin-left: 6em;*/
@@ -139,7 +145,7 @@ input{
     background: white;
     color: darkslategray;
     text-align: center;	
-    transform: translateX(-1.25em);
+
 }
 
 
