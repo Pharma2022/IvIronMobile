@@ -16,8 +16,8 @@ body{
     border: 0.25em solid darkslategray;
     height:auto;
   
-    min-width: 32em;
-    max-width: 32em;	
+    min-width: 100%;
+    max-width: 100%	;
     display: flex;
     flex-direction:column; 
     margin: 0em auto; 
