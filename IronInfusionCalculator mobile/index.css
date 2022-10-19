@@ -60,7 +60,7 @@ h4{
     padding: 1em;
     margin: 0em 2em;
     text-align: center  ;
-    
+    border : 5px solid salmon;
 }
 .input{
     border: 1px solid red; 
@@ -71,7 +71,7 @@ h4{
 
 .inputRow{
     border: 2px dashed #ff8c00 ;
-    min-height: 4.5em;	
+    min-height: 9em;	
     display: inline-flex;
     justify-content: center;
     align-items: center;}
@@ -86,11 +86,11 @@ width: 100%;
     
 }
 .label,.input{
-    min-width: 35%;
-    max-width: 50%;
+    min-width: 52.5%;
+    max-width: 52.5%;
     display: inline-flex;
     flex-direction: column;
-    margin: 0.125em 1.25em;
+    margin: 0.25em .25em;
     text-align: center;
     align-content: center;
     justify-content: space-around;
@@ -108,11 +108,11 @@ width: 100%;
 label{
     display: inline-block;
     border: 2px brown dashed;
-    min-height: 2.5125em;
-    max-height: 2.5125em;
+    min-height: 5em;
+    max-height: 5em;
    text-align: left;
    
-   min-width: 45%;
+   min-width: 75%;
    max-width: 75%;
  
     /* margin-top:0.625em;	
@@ -121,7 +121,7 @@ label{
 	
     font-weight: bolder;
    margin: 0em auto;
-     		
+     		font-size: xx-large;
 }
 
 input{   
