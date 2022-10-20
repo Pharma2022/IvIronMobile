@@ -350,13 +350,13 @@ font-size: large;
 
 .iConfirm{
     margin: 0em 2.5em;
-    margin-top: 1.5625em;
+
     background: lightgrey;
     padding: 1.25em;    
     border: 0.0625em solid black;
     min-width: 40%; 
-    max-width: 75%;
-    font-size: large;
+    max-width: 70%;
+    font-size: xx-large;
     align-self: center;
     text-align: justify;
 }
