@@ -265,13 +265,13 @@ header{
 }
 
 .minMax{
-    display: inline-flex;
+    display: block;
     
     color: gray;
   
     font-style: italic;
     font-size: smaller;
-    min-width:18.75em;
+    
     width: 100%;
     text-align: left;
 height: auto;
