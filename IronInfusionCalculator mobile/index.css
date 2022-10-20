@@ -36,8 +36,8 @@ h1,h2,h3,h4,h5{
 h1{
 font-size: xx-large;
     font-weight: 900pt;
-    padding-bottom: 1em;
-    margin-bottom:-1em;
+    padding-bottom: 2em;
+    margin-bottom:-2.5em;
 }
 h2,h3,h4,h5{
     font-family: 'Lato', sans-serif;
@@ -61,6 +61,7 @@ h4{
     width: 92.5%;
     padding: 1em;
     margin: 0em 2em;
+    margin-bottom:-2em;+	
     text-align: center  ;
 
 }
@@ -337,8 +338,8 @@ padding: 0;
 
 .references{
 font-size: large;
-
-
+width:auto;
+padding-bottom:-1em;
 
 }
 
