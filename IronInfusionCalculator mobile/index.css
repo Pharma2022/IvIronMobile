@@ -337,18 +337,20 @@ padding: 0;
 }
 
 
-.references{
-font-size: large;
-width:auto;
-padding-bottom:-1em;
 
-}
 
 #Ferinject,#Monofer,#Cosmofer,#guidelines,#reference-heading{
   margin: 0em 1.25em;
     font-size: small;
     font-weight: normal;
 }
+.references{
+font-size: large;
+width:auto;
+padding-bottom:-1rem;
+
+}
+
 #Cosmofer{
     margin-bottom: 0.9375em;
 }
