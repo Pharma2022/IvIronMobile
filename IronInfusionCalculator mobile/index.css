@@ -12,14 +12,13 @@ body{
     padding: 0;}
 
 .container{
-  
-    
-    height:100%;
-  
+    min-height:fit-content;
+    max-height: fit-content;
     min-width: 100%;
     max-width: 100%	;
-    display: flex;
+    display: inline-flex;
     flex-direction:column; 
+    flex-grow: unset;
     margin: 0em auto; 
     text-align: center;
     border: 0.25em solid darkslategray;
@@ -30,10 +29,12 @@ h1,h2,h3,h4,h5{
 	
 h1{
     font-weight: 900pt;
+    padding-bottom: 1em;
+    margin-bottom: 0;
 }
 h2,h3,h4,h5{
     font-family: 'Lato', sans-serif;
-    font-weight: 500pt;	
+    font-weight: 400pt;	
 }
 
 h4{
@@ -44,72 +45,73 @@ h4{
 }
 
 
-.inputRow{
-    
-    width: 90%;
-    height: auto;
-    margin: 0em auto;
-    border: 1px solid purple;
-}
+
 .inputLabel{
     display:    flex;
-    ;
+    
     justify-content: space-evenly;
-    height: 90%;
-    width: 90%;
+    height: 92.5%;
+    width: 92.5%;
     padding: 1em;
     margin: 0em 2em;
     text-align: center  ;
     border : 5px solid salmon;
 }
-.input{
-    border: 1px solid red; 
-    height: 100%;
-    width: 100%;
-   
-}
 
-.inputRow{
-    border: 2px dashed #ff8c00 ;
-    min-height: 9em;	
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;}
-
-.label{
-    border:1px solid green;
-margin: 0;
-padding: 0;
-
-height: 100%;
-width: 100%;
-    
-}
 .label,.input{
-    min-width: 52.5%;
-    max-width: 52.5%;
     display: inline-flex;
     flex-direction: column;
-    margin: 0.25em .25em;
+    width: 100%;
+    
+    margin: 0.25em auto;
     text-align: center;
     align-content: center;
     justify-content: space-around;
-    
+    padding: 1.5em;  
+}
+.input{ border: 1px solid red; 
+    height:100%;
+}
+
+.label{border:1px solid green;
 }
 
 .labelMinMax{
+    display: inline-flex;
+    padding: 1rem;
     text-align: center;
     border: 3px dotted pink;
     justify-content: center;
     justify-items: center;
+    min-width: 90%;
+    max-width: 90%;
+  min-height:8.5em;
+  max-height: 8.5rem;
+    margin: 0em auto;
     
+}
+
+.inputRow{
+     display: inline-flex;
+    padding: 1rem;
+    
+    min-width: 90%;
+    max-width: 90%;
+    min-height:100%;
+    max-height: 100%;
+    margin: 0.25em auto;
+    border: 1px solid purple;
+    height: 8.5em;	
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 label{
     display: inline-block;
     border: 2px brown dashed;
-    min-height: 5em;
-    max-height: 5em;
+    min-height: 100%;
+    max-height: 100%;
    text-align: left;
    
    min-width: 75%;
@@ -126,8 +128,8 @@ label{
 
 input{   
     display: inline-block;
-        min-height: 2.5125em;
-        max-height: 2.5125em;
+        min-height: 4em;
+        max-height: 4em;
     min-width: 67%;
     max-width: 67%;
   
@@ -136,8 +138,8 @@ input{
     margin-top:0.625em;
     margin-bottom:0em;*/
 		margin: 0em auto;
-    font-size: larger;
-    margin: 0.25em 0;
+    font-size: xx-large;
+    margin: 0.125em 0;
     font-weight: bold;
     text-shadow: 0em;
     border: 0.15em solid darkslategray;
@@ -163,22 +165,21 @@ input{
     
    
     
-    margin-bottom:0em;
+   margin: 0;
+   
     border: 0.15em solid darkslategray ;
     font-weight: bold;
-    font-size:large;
+    font-size:xx-large;
     
        
-    min-width: 4.25em;
-    max-width: 4.25em;
-    min-height: 2.5125em;
-    max-height: 2.5125em;
+  min-width: 33.5%;
+  max-width: 33.5%;
+    height:8.5rem;
    
         text-align: center;
      padding: 0em   ;
      align-content: center;
           justify-content:center;
-          transform: translateX(-1.45em);
 }
 
  #female,#male{   
@@ -262,16 +263,16 @@ header{
 
 .minMax{
     display: inline-flex;
-    flex-direction:column;
+    
     color: gray;
-    display: flex;
-    flex-direction: row;
+  
     font-style: italic;
     font-size: smaller;
-    width:13.75em;
+    min-width:18.75em;
+    width: 100%;
     text-align: left;
-height:1.5625em;
-margin: 0em auto;
+height: auto;
+padding: 0;
 
 
 
