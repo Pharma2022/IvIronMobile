@@ -308,6 +308,8 @@ padding: 0;
     display: inline-block;
     padding: 1.25em;
     margin: -1.25em auto;
+    max-width: 80%;
+    font-size: larger;
 }
 #render-dose h4{
     margin: 1.25em;
@@ -356,7 +358,7 @@ font-size: large;
     border: 0.0625em solid black;
     min-width: 40%; 
     max-width: 70%;
-    font-size: xx-large;
+    font-size: x-large;
     align-self: center;
     text-align: justify;
 }
@@ -371,6 +373,7 @@ font-size: large;
     min-width: 40%; 
     max-width: 75%;
     text-align: justify;
+    font-size: large;
     
 }
 #selection-message{
