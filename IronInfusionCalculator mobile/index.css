@@ -34,9 +34,10 @@ h1,h2,h3,h4,h5{
 }
 	
 h1{
+font-size: larger;
     font-weight: 900pt;
     padding-bottom: 1em;
-    margin-bottom: 0;
+    margin-bottom:-1em;
 }
 h2,h3,h4,h5{
     font-family: 'Lato', sans-serif;
@@ -374,7 +375,7 @@ font-size: large;
     min-width: 40%; 
     max-width: 75%;
     text-align: justify;
-    font-size: large;
+    font-size: xl;
     
 }
 #selection-message{
