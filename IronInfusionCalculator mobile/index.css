@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5{
 h1{
 font-size:5em;
     font-weight: 900pt;
-    padding-bottom: 4em;
+    padding-bottom: 1em;
     margin-bottom:-0.5em;
 }
 h2,h3,h4,h5{
@@ -302,8 +302,8 @@ padding: 0;
     padding: 1.25em 1.5625em;
     margin: 0em auto;
   
-    min-width: 40%; 
-    max-width: 50em;
+    min-width: 80%; 
+    
 }
 #render-dose{
     
@@ -311,7 +311,7 @@ padding: 0;
     padding: 1.25em;
     margin: -1.25em auto;
     max-width: 80%;
-    font-size: larger;
+    font-size: x-large;
 }
 #render-dose h4{
     margin: 1.25em;
@@ -376,7 +376,7 @@ padding-bottom:-1em;
     min-width: 40%; 
     max-width: 75%;
     text-align: justify;
-    font-size: xl;
+    font-size: x-large;
     
 }
 #selection-message{
@@ -407,7 +407,8 @@ padding-bottom:-1em;
     text-align: left;
     border: 0.0625em solid gray;
     font-size: medium;
-    margin-top: 0px;
+    
+	
     min-width: 40%; 
     max-width: 75%;
 }
