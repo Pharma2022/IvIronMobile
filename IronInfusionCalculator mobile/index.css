@@ -4,12 +4,17 @@ html{
     font-family: 'Lato', sans-serif;}
 
 body{
-    background: white;
+ 
+   
     color: black;
     text-shadow: 0em ; 
        font-family: 'Lato', sans-serif;	
-       margin: 0;
-    padding: 0;}
+     align-items: center;
+       margin: 0 ;
+    padding: 0;
+width: 100%;
+}
+    
 
 .container{
     min-height:100%;
@@ -18,10 +23,11 @@ body{
 width: auto;
     display: inline-flex;
     flex-direction:column; 
- 
+   
     margin: 0em auto; 
     text-align: center;
     border: 0.25em solid darkslategray;
+    
 }
 h1,h2,h3,h4,h5{
 	    font-family: 'Lato', sans-serif;	
@@ -79,7 +85,8 @@ h4{
 .labelMinMax{
     display: inline-flex;
     padding: 1rem;
-	
+	text-indent: 5em;
+    transform: translateX(2.5em);
     text-align: center;
     border: 3px dotted pink;
     justify-content: center;
@@ -102,6 +109,7 @@ h4{
     text-align: center;
     justify-content: center;
     align-items: center;
+    transform: translateX(-7em);
 }
 
 label{
@@ -328,7 +336,7 @@ padding: 0;
 
 
 .references{
-font-size: medium;
+font-size: large;
 
 
 
@@ -350,9 +358,9 @@ font-size: medium;
     padding: 1.25em;    
     border: 0.0625em solid black;
     min-width: 40%; 
-    max-width: 90%;
-    
-    
+    max-width: 75%;
+    font-size: large;
+    align-self: center;
     text-align: justify;
 }
 
@@ -364,7 +372,7 @@ font-size: medium;
     margin:  0em auto ;
     margin-bottom: -2.5em ; 
     min-width: 40%; 
-    max-width: 90%;
+    max-width: 75%;
     text-align: justify;
     
 }
@@ -385,6 +393,7 @@ font-size: medium;
     font-weight: bold;
     margin-top: -1.25em;
     margin-bottom: 0.625em;
+    font-size: large;
     
 }
 #references{
@@ -394,8 +403,8 @@ font-size: medium;
     flex-direction: column;
     text-align: left;
     border: 0.0625em solid gray;
-   
+    font-size: medium;
     margin-top: 0px;
     min-width: 40%; 
-    max-width: 90%;   
+    max-width: 75%;
 }
