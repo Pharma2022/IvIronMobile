@@ -83,10 +83,8 @@ h4{
     border: 3px dotted pink;
     justify-content: center;
     justify-items: center;
-    min-width: 90%;
-    max-width: 90%;
-  min-height:8.5em;
-  max-height: 8.5rem;
+    width: 25rem;
+  height: auto;
     margin: 0em auto;
     
 }
@@ -95,10 +93,8 @@ h4{
      display: inline-flex;
     padding: 1rem;
     
-    min-width: 90%;
-    max-width: 90%;
-    min-height:100%;
-    max-height: 100%;
+    width: 25rem;
+    height: auto;
     margin: 0.25em auto;
     border: 1px solid purple;
     height: 8.5em;	
@@ -128,8 +124,7 @@ label{
 
 input{   
     display: inline-block;
-        min-height: 4em;
-        max-height: 4em;
+    
     min-width: 67%;
     max-width: 67%;
   
@@ -174,10 +169,11 @@ input{
        
   min-width: 33.5%;
   max-width: 33.5%;
-    height:8.5rem;
+   height: auto;
    
-        text-align: center;
-     padding: 0em   ;
+        text-align: left;
+     padding: 0.5em    ;
+    
      align-content: center;
           justify-content:center;
 }
@@ -191,6 +187,13 @@ input{
 #male{
     position: relative;
     right: -0.1em;
+    padding-left:1em;
+    padding-right: 3em;
+}
+
+#female{
+    padding-right: 4em;
+    padding-left: 1em;
 }
 
 
