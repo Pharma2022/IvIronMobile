@@ -28,7 +28,7 @@ width: auto;
     text-align: center;
     border: 0.25em solid darkslategray;
 	border-bottom:none;
-    
+    font-size:larger;
 }
 h1,h2,h3,h4,h5{
 	    font-family: 'Lato', sans-serif;	
