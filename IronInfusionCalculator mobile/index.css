@@ -12,13 +12,13 @@ body{
     padding: 0;}
 
 .container{
-    min-height:fit-content;
+    min-height:100%;
     max-height: fit-content;
     min-width: 100%;
-    max-width: 100%	;
+width: auto;
     display: inline-flex;
     flex-direction:column; 
-    flex-grow: unset;
+ 
     margin: 0em auto; 
     text-align: center;
     border: 0.25em solid darkslategray;
@@ -61,7 +61,7 @@ h4{
 .label,.input{
     display: inline-flex;
     flex-direction: column;
-    min-width: 50%;
+    min-width: 40%;
     max-width: 50%;
     margin: 0.25em auto;
     text-align: center;
