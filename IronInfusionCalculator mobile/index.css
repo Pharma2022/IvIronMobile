@@ -27,6 +27,7 @@ width: auto;
     margin: 0em auto; 
     text-align: center;
     border: 0.25em solid darkslategray;
+	border-bottom:none;
     
 }
 h1,h2,h3,h4,h5{
