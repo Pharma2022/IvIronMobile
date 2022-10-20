@@ -61,7 +61,7 @@ h4{
     padding: 1em;
     margin: 0em 2em;
     text-align: center  ;
-    border : 5px solid salmon;
+
 }
 
 .label,.input{
@@ -75,12 +75,11 @@ h4{
     justify-content: space-around;
     padding: 1.5em;  
 }
-.input{ border: 1px solid red; 
+.input{ 
     height:100%;
 }
 
-.label{border:1px solid green;
-}
+
 
 .labelMinMax{
     display: inline-flex;
@@ -88,7 +87,7 @@ h4{
 	text-indent: 5em;
     transform: translateX(2.5em);
     text-align: center;
-    border: 3px dotted pink;
+ 
     justify-content: center;
     justify-items: center;
     width:80%;
@@ -104,7 +103,7 @@ h4{
     width: 25rem;
     height: auto;
     margin: 0.25em auto;
-    border: 1px solid purple;
+    
     height: 8.5em;	
     text-align: center;
     justify-content: center;
@@ -115,7 +114,7 @@ h4{
 label{
     display: inline-flex;
     flex-direction: column;
-    border: 2px brown dashed;
+
     min-height: 100%;
     max-height: 100%;
    text-align: left;
@@ -161,9 +160,7 @@ input{
 
 
 
-.inputRow button{
-    border: solid 2px dashed greenyellow;
-}
+
 
 .gender{
     display: inline-block;
@@ -176,9 +173,9 @@ input{
     font-weight: bold;
     font-size:xx-large;
     
-       
-  min-width: 33.5%;
-  max-width: 33.5%;
+       width: auto;
+  min-width: 2.15em;
+  max-width: 2.15em;
    height: auto;
    
         text-align: left;
