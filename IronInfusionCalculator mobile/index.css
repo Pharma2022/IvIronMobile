@@ -61,8 +61,8 @@ h4{
 .label,.input{
     display: inline-flex;
     flex-direction: column;
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 50%;
+    max-width: 50%;
     margin: 0.25em auto;
     text-align: center;
     align-content: center;
