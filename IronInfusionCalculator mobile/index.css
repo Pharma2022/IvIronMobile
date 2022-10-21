@@ -13,6 +13,7 @@ body{
        margin: 0 ;
     padding: 0;
 width: 100%;
+height:auto;
 }
     
 
@@ -28,6 +29,8 @@ width: auto;
     text-align: center;
     border: 0.25em solid darkslategray;
 	border-bottom:none;
+border-left: none;
+border-right:none;
     font-size:larger;
 }
 h1,h2,h3,h4,h5{
@@ -37,7 +40,7 @@ h1,h2,h3,h4,h5{
 h1{
 font-size:4em;
     font-weight: 900pt;
-    padding-bottom: 1em;
+    padding: 1em;
     margin-bottom:-0.5em;
 }
 h2,h3,h4,h5{
@@ -141,8 +144,8 @@ height: auto;
 input{   
     display: inline-block;
     
-    min-width: 10em;
-    max-width: 10em;
+    min-width: 9.75em;
+    max-width: 9.75em;
     height: auto;
 	padding: 0.625em 1em;
 	/*margin-right:6em;
