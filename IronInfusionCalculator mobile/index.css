@@ -13,6 +13,7 @@ body{
        margin: 0 ;
     padding: 0;
 width: 100%;
+border: none;
 }
     
 
@@ -26,8 +27,8 @@ width: 100%;
     width: auto;
     margin: 0em auto; 
     text-align: center;
-    border: 0.25em solid darkslategray;
-	border-bottom:none;
+    border-top: 0.25em solid darkslategray;
+	
     font-size:larger;
 }
 h1,h2,h3,h4,h5{
@@ -39,6 +40,7 @@ font-size:4em;
     font-weight: 900pt;
     padding-bottom: 1em;
     margin-bottom:-0.5em;
+    border-top: 0.25em solid darkslategray;
 }
 h2,h3,h4,h5{
     font-family: 'Lato', sans-serif;
@@ -141,8 +143,8 @@ height: auto;
 input{   
     display: inline-block;
     
-    min-width: 10em;
-    max-width: 10em;
+    min-width: 9.5em;
+    max-width: 9.5em;
     height: auto;
 	padding: 0.625em 1em;
 	/*margin-right:6em;
@@ -158,7 +160,8 @@ input{
     background: white;
     color: darkslategray;
     text-align: center;	
-
+    
+    transform: translateX(0.045em);
 }
 
 
@@ -359,6 +362,7 @@ text-indent: 2rem;
     
     align-self: center;
     text-align: left;
+    line-height: 1.3;
 }
 
 
@@ -372,7 +376,7 @@ text-indent: 2rem;
     max-width: 65%;
     text-align: justify;
     font-size: x-large;
-    font-weight: normal;
+   line-height: 1.5;
     
 }
 #selection-message{
