@@ -140,7 +140,7 @@ female.addEventListener("click",function(e){
             if (ironPrep=="Cosmofer"&&secondInfusion>=100){
             message = ` <div>
         
-            <li> First infusion:<span class= "finalCalc"> ${firstInfusion}mg</span></li><li>Second infusion:<span class ="finalCalc"> ${secondInfusion}mg</span></li>
+            <li> First infusion: <span class= "finalCalc">${firstInfusion}mg</span></li><li>Second infusion: <span class ="finalCalc">${secondInfusion}mg</span></li>
             
            <h5> Add the required quantity for each infusion to 500ml 0.9% Sodium Chloride.</h5>
            <h5> After giving the test dose , give over 4-6 hours</h5>
@@ -280,7 +280,7 @@ if(ironPrep==="Ferinject")
                     firstTime = 15}
                 
                  message = ` <div>
-                        <li> First infusion:<span class="finalCalc"> ${firstInfusion}mg</span></li><li>Second infusion:<span class="finalCalc"> ${secondInfusion} mg</span></li>
+                        <li>First infusion: <span class="finalCalc">${firstInfusion}mg</span></li><li>Second infusion: <span class="finalCalc">${secondInfusion} mg</span></li>
                         
                     <h5> Add the first infusion of ${firstInfusion} mg to a maximum of ${firstVolume} Sodium Chloride. Give over a minimum ${firstTime} minutes</h5>
                     <h5> Leave a minimum of <span> one week</span> between the first and second infusions. </h5>
@@ -302,7 +302,7 @@ if(ironPrep==="Ferinject")
                     
                     
                     
-                    message =` <li> First infusion:<span class="finalCalc"> ${firstInfusion}mg</span></li><li>Second infusion:<span class="finalCalc"> ${secondInfusion} mg</span></li>Third infusion:<span class="finalCalc"> ${thirdInfusion} mg</span></li>
+                    message =` <li> First infusion: <span class="finalCalc"> ${firstInfusion}mg</span></li><li>Second infusion: <span class="finalCalc"> ${secondInfusion} mg</span></li>Third infusion:<span class="finalCalc"> ${thirdInfusion} mg</span></li>
                         
                     <h5> Add the first infusion of ${firstInfusion} mg to a maximum of ${firstVolume}ml Sodium Chloride. Give over a minimum ${firstTime} minutes</h5>
                     <h5> Leave a minimum of <span> one week</span> between the first and second infusions and third infusions. To avoid using three infusions, please consider Monofer or Cosmofer </h5>
