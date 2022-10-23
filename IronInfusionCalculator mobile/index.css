@@ -320,6 +320,7 @@ padding: 0;
     text-decoration: underline;
 }
 
+
 #render-dose li,#single{
     margin-bottom: 0.625em;
     
@@ -421,4 +422,8 @@ text-indent: 2rem;
     min-width: 80%; 
   
     
+}
+.red{
+    display: inline;
+    color: red;
 }
