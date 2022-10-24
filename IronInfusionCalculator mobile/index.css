@@ -354,7 +354,7 @@ text-indent: 2rem;
 
 .iConfirm{
     margin: 0em 2.5em;
-
+    margin-top:1em;	
     background: lightgrey;
     padding: 1.25em;    
     border: 0.0625em solid black;
@@ -419,7 +419,7 @@ text-indent: 2rem;
     align-self: center;
     padding: 1.25em 1.5625em;
     margin: 0em auto;
-  
+    margin-top:1em;
     min-width: 80%; 
   
     
