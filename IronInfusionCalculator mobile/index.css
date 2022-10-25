@@ -93,8 +93,8 @@ h4{
 .labelMinMax{
     display: inline-flex;
     
-	text-indent: 5em;
-    transform: translateX(2.5em);
+	text-indent: 4em;
+    transform: translateX(2em);
     text-align: center;
  
     justify-content: center;
@@ -118,7 +118,7 @@ h4{
     text-align: center;
     justify-content: center;
     align-items: center;
-    transform: translateX(-7em);
+    transform: translateX(-5em);
 border: 0.0625em solid black ;
 }
 
