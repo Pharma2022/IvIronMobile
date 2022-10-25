@@ -11,11 +11,12 @@ body{
        font-family: 'Lato', sans-serif;	
 	display:flex;
 	flex-direction:column;
+	margin:0em auto;
     align-self: center;
     justify-self: center;
    justify-content:center;
    align-content: center;
-   margin-right: -1.5em;
+text-align:center;
        padding-top: 1em;
     padding: 0;
 width: 100%;
@@ -27,7 +28,7 @@ border: none;
   
     display: inline-flex;
     flex-direction:column; 
-    justify-content:space-between;
+    justify-content:center;
     min-height:100%;
     height: auto;
     min-width: 100%;
