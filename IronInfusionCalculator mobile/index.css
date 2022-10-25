@@ -11,6 +11,7 @@ body{
        font-family: 'Lato', sans-serif;	
 	display:flex;
    justify-content:center;
+   align-content: center;
        margin: 0 ;
     padding: 0;
 width: 100%;
@@ -29,8 +30,9 @@ border: none;
     width: auto;
     margin: 0em auto; 
     text-align: center;
+   
     border-top: 0.25em solid darkslategray;
-	
+	padding-top: -0.5em;
     font-size:larger;
 }
 h1,h2,h3,h4,h5{
@@ -75,8 +77,9 @@ h4{
 .label,.input{
     display: inline-flex;
     flex-direction: column;
-    min-width: 40%;
+    min-width: 50%;
     max-width: 50%;
+    height:100%;
     margin: 0.25em auto;
     text-align: center;
     align-content: center;
@@ -84,17 +87,15 @@ h4{
     padding: 1.5em;  
 
 }
-.input{ 
-    height:100%;
-}
+
 
 
 
 .labelMinMax{
     display: inline-flex;
     
-	text-indent: 4em;
-    transform: translateX(2em);
+	text-indent: 5em;
+    transform: translateX(4em);
     text-align: center;
  
     justify-content: center;
@@ -102,7 +103,7 @@ h4{
     width:80%;
     height: 6.5em;
     margin: 0em auto;
- border: 0.0625em solid black ;
+ 
     
 }
 
@@ -119,23 +120,18 @@ h4{
     justify-content: center;
     align-items: center;
     transform: translateX(-5em);
-border: 0.0625em solid black ;
+
 }
 
 label{
-    display: inline-flex;
-    flex-direction: column;
+   display: inline-flex;
+   flex-direction: column;
 
 height: auto;
    text-align: left;
    align-self: center;
    min-width: 10em;
-   max-width: 10em;
- 
-    /* margin-top:0.625em;	
-
-    margin-left: 6em;*/
-	
+   max-width: 10em;	
     font-weight: bolder;
    margin: 0em auto;
      		font-size: xx-large;
