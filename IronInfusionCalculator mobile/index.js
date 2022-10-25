@@ -191,7 +191,7 @@ female.addEventListener("click",function(e){
            }
             } 
         else{ firstInfusion= finalCalculation
-            testdose= ` The first <span class= "finalCalc"> 25mg<span> of this infusion is to be given as a <span class="finalCalc">test dose</span> over 15 minutes.`
+            testdose= ` The first <span class= "finalCalc"> 25mg</span> of this infusion is to be given as a <span class="finalCalc">test dose</span> over 15 minutes.`
             
               if (ironPrep=="Cosmofer"){
             
