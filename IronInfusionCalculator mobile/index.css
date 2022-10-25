@@ -1,5 +1,5 @@
 html{
-    margin: 0;
+ 
     padding: 0;
     font-family: 'Lato', sans-serif;}
 
@@ -11,9 +11,12 @@ body{
        font-family: 'Lato', sans-serif;	
 	display:flex;
 	flex-direction:column;
+    align-self: center;
+    justify-self: center;
    justify-content:center;
    align-content: center;
-       margin: 0 auto;
+   margin-right: -1.5em;
+       padding-top: 1em;
     padding: 0;
 width: 100%;
 border: none;
