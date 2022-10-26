@@ -4,24 +4,22 @@ html{
 	margin:0;
     font-family: 'Lato', sans-serif;}
 
+
 body{
  
    display:block;
     color: black;
     text-shadow: 0em ; 
        font-family: 'Lato', sans-serif;	
-	
-	
-
    
    justify-content:center;
    align-content: center;
 text-align:center;
-       padding-top: 1em;
+    margin:0;
     padding: 0;
 width: 100%;
-	min-height:100%;
-border: none;
+height:auto;
+
 }
     
 
@@ -29,11 +27,11 @@ border: none;
   
     display: inline-flex;
     flex-direction:column; 
-    justify-content:center;
+    justify-content:space-between;
     min-height:100%;
     height: auto;
-    min-width: 100%;
-    width: auto;
+  
+    width: 97.5%;
     margin: 0em auto; 
     text-align: center;
    
