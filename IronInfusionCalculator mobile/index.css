@@ -3,12 +3,14 @@ html{
     padding: 0;
 	margin:0;
     font-family: 'Lato', sans-serif;
-overflow-x: hidden;}
+width:100%;
+
+}
 
 
 body{
  
-overflow-x: hidden;
+
     color: black;
     text-shadow: 0em ; 
        font-family: 'Lato', sans-serif;	
