@@ -417,7 +417,7 @@ function renderError(){  renderDose.innerHTML=""
                 <h3><div> You have selected values outside the range(s)! </h3></div> 
                 
               
-                <h4 id="box">Please ensure all the values are correctly filled to meet the <span class ="finalCalc">maximum</span> and <span class ="finalCalc">minimum</span> parameters. Ensure you have clicked on a <span class ="finalCalc">gender</span>. If your patient's values fall <span class ="finalCalc">outside</span> the above ranges, enter the values within the range that are <span class="finalCalc">closest</span> to the patient values.</h4>
+                <h4 id="box">Please ensure all the values are correctly filled to meet the <span class ="finalCalc">maximum</span> and <span class ="finalCalc">minimum</span> parameters. Ensure you have clicked on a <span class ="finalCalc">gender</span>. Ensure that there is a <span class ="finalCalc">minimum 10g/L</span> difference between target Hb and actual Hb. If your patient's values fall <span class ="finalCalc">outside</span> the above ranges, enter the values within the range that are <span class="finalCalc">closest</span> to the patient values.</h4>
             
                  
                 `}
