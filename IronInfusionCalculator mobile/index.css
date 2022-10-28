@@ -343,7 +343,7 @@ padding: 0;
 }
 
 .references{
-font-size: x-large;
+font-size: large;
 width:auto;
 padding: 1rem;
 padding-bottom:-1rem;
@@ -425,7 +425,7 @@ text-align: justify;
     padding: 1.25em 1.5625em;
     margin: 0em auto;
     margin-top:1em;
-    font-size:medium;
+    font-size:large;
     min-width: 80%; 
   
     
