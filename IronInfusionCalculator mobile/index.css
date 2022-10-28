@@ -395,11 +395,14 @@ text-align: justify;
    #reference-heading{
     text-decoration: underline;
     font-weight: bold;
-    
+    margin-top:0;
     font-size;xx-large;
     
     
     
+}
+#Cosmofer{
+margin-bottom:0;
 }
 #references{
     
