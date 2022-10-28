@@ -342,6 +342,7 @@ padding: 0;
     
     font-weight: normal;
 }
+
 .references{
 font-size: x-large;
 width:auto;
@@ -350,7 +351,8 @@ padding-bottom:-1rem;
 text-align: justify;
 
 }
-
+#Cosmofer {
+margin-bottom:-1em;}
 
 
 .iConfirm{
@@ -395,14 +397,14 @@ text-align: justify;
    #reference-heading{
     text-decoration: underline;
     font-weight: bold;
-    margin-top: -2em;
-    padding-top:0;
+    margin-top: -1em;
+    
     
     
 }
 #references{
     
-    margin: 1em auto;
+    margin: 1.5em auto;
     display: flex;
     flex-direction: column;
     text-align: justify;
