@@ -406,11 +406,11 @@ text-indent: 2rem;
     flex-direction: column;
     text-align: left;
     border: 0.0625em solid gray;
-    font-size: medium;
-    
+    font-size: large;
+    padding: 1em 
 	
     min-width: 40%; 
-    max-width: 75%;
+    max-width: 70%;
 }
 #shah{
     
