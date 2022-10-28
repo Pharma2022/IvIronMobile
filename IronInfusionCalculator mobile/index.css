@@ -395,9 +395,9 @@ text-align: justify;
    #reference-heading{
     text-decoration: underline;
     font-weight: bold;
-    margin-top: -1.25em;
-    margin-bottom: 0.625em;
-    font-size: large;
+    margin-top: -2em;
+    padding-top:0;
+    
     
 }
 #references{
@@ -405,10 +405,10 @@ text-align: justify;
     margin: 0em auto;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: justify;
     border: 0.0625em solid gray;
     font-size: xx-large;
-    padding: 0em 1em; 
+     
 	
     min-width: 40%; 
     max-width: 70%;
