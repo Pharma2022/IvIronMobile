@@ -401,12 +401,10 @@ text-align: justify;
     
     
 }
-#Cosmofer{
-margin-bottom:-2em;
-}
+
 #references{
     
-    margin: 0.75em auto;
+    margin: 1em auto;
     display: flex;
     flex-direction: column;
     padding:0em 1.25em;
