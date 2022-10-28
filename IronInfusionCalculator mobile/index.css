@@ -338,13 +338,14 @@ padding: 0;
 
 
 #Ferinject,#Monofer,#Cosmofer,#guidelines,#reference-heading{
-  margin: 0em 0.5em;
+  margin: 0em 1em;
     font-size: large;
     font-weight: normal;
 }
 .references{
 font-size: x-large;
 width:auto;
+padding: 1rem;
 padding-bottom:-1rem;
 text-indent: 2rem;
 
@@ -407,7 +408,7 @@ text-indent: 2rem;
     text-align: left;
     border: 0.0625em solid gray;
     font-size: large;
-    padding: 1em 
+    padding: 1em; 
 	
     min-width: 40%; 
     max-width: 70%;
