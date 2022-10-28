@@ -257,12 +257,7 @@ input{
     text-shadow: 0em 0em 0em black;
 }
 
-h5{
-    color: grey;
-    margin: 0em auto;
-    text-align: center;
-    margin-left: 1.875em;
-}
+
 
     
 
@@ -429,6 +424,12 @@ text-align: justify;
     min-width: 80%; 
   
     
+}
+#shah h4{
+color: grey;
+    margin: 0em auto;
+    text-align: center;
+    margin-left: 1.875em;
 }
 .red{
     display: inline;
