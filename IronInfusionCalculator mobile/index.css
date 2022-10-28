@@ -350,8 +350,7 @@ padding-bottom:-1rem;
 text-align: justify;
 
 }
-#Cosmofer {
-margin-bottom:-1em;}
+
 
 
 .iConfirm{
@@ -396,19 +395,22 @@ margin-bottom:-1em;}
    #reference-heading{
     text-decoration: underline;
     font-weight: bold;
-    margin-top: -1em;
+    
+    font-size;xx-large;
     
     
     
 }
 #references{
     
-    margin: 1.5em auto;
+    margin: 0.75em auto;
+    
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     text-align: justify;
     border: 0.0625em solid gray;
-    font-size: xx-large;
+    font-size: x-large;
      
 	
     min-width: 40%; 
@@ -421,6 +423,7 @@ margin-bottom:-1em;}
     align-self: center;
     padding: 1.25em 1.5625em;
     margin: 0em auto;
+    margin-top:1em;
   
     min-width: 80%; 
   
