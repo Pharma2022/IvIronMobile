@@ -9,7 +9,7 @@ body{
    display: inline-flex;
    flex-direction: column;
    justify-content: center;
-   
+   text-align: center;
   
     color: black;
     text-shadow: 0em ; 
