@@ -1,25 +1,24 @@
 html{
  
     padding: 0;
+    margin:0;
     font-family: 'Lato', sans-serif;}
 
 body{
  
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: center;
    
+  
     color: black;
     text-shadow: 0em ; 
        font-family: 'Lato', sans-serif;	
-	display:flex;
-	flex-direction:column;
-	margin:0em auto;
-    align-self: center;
-    justify-self: center;
-   justify-content:center;
-   align-content: center;
-text-align:center;
-       padding-top: 1em;
+
+      margin: 0 ;
     padding: 0;
 width: 100%;
+overflow-x:hidden;
 border: none;
 }
     
@@ -28,14 +27,14 @@ border: none;
   
     display: inline-flex;
     flex-direction:column; 
-    justify-content:center;
+    justify-content:space-evenly;
     min-height:100%;
     height: auto;
     min-width: 100%;
     width: auto;
-    margin: 0em auto; 
+    margin: 0; 
     text-align: center;
-   
+    align-self: center;
     border-top: 0.25em solid darkslategray;
 	padding-top: -0.5em;
     font-size:larger;
@@ -73,7 +72,7 @@ h4{
     width: 92.5%;
     padding: 1em;
     margin: 0em 2em;
-    margin-bottom:-2em;	
+
     text-align: center  ;
     
 
@@ -105,7 +104,7 @@ h4{
  
     justify-content: center;
     justify-items: center;
-    width:80%;
+    width:25rem;
     height: 6.5em;
     margin: 0em auto;
  
@@ -341,15 +340,17 @@ padding: 0;
 
 #Ferinject,#Monofer,#Cosmofer,#guidelines,#reference-heading{
   margin: 0em 0.5em;
-    font-size: small;
+    font-size: large;
     font-weight: normal;
 }
 .references{
-font-size: x-large;
+
 width:auto;
-padding-bottom:-1rem;
-text-indent: 2rem;
+padding: 1em;
+padding-left: 3em;
+padding-bottom: 0;
 	margin-bottom:1em;
+    padding-right: 4em;
 
 }
 
@@ -397,9 +398,11 @@ text-indent: 2rem;
    #reference-heading{
     text-decoration: underline;
     font-weight: bold;
+    padding-top: 0;
     margin-top: -1.25em;
-    margin-bottom: 0.625em;
-    font-size: large;
+    margin-bottom: 0.3125em;
+    margin-left: 0;
+    font-size: x-large;
     
 }
 #references{
@@ -407,9 +410,9 @@ text-indent: 2rem;
     margin: 0em auto;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: justify;
     border: 0.0625em solid gray;
-    font-size: medium;
+    font-size: large;
     
 	
     min-width: 40%; 
@@ -418,7 +421,7 @@ text-indent: 2rem;
 #shah{
     
     display: inline-block;
- 
+    font-size: larger;
     align-self: center;
     padding: 1.25em 1.5625em;
     margin: 0em auto;
