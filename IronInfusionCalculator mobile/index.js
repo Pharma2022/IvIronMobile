@@ -413,16 +413,18 @@ if(ironPrep==="Ferinject")
                       }
                             
         }
+if(myfactor=""){
+renderError()
+} 
 
+if(myfactor=45.5||50){
          
-        render()
+        render()}
                 
 
     }
 
-if(factor=""){
-renderError()
-}
+
     
 else {
 
