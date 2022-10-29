@@ -79,12 +79,12 @@ h4{
     flex-direction: column;
     min-width: 50%;
     max-width: 50%;
-    height:100%;
+    
     margin: 0.25em auto;
     text-align: center;
     align-content: center;
-    justify-content: space-around;
-    padding: 1.5em;  
+    justify-content: space-evenly;
+    padding: 1em;  
 
 }
 
