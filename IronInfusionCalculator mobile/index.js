@@ -64,7 +64,7 @@ female.addEventListener("click",function(e){
         }
                 
         
-  if ((patientHeight>=152&&patientHeight<=200)&&(patientWeight>=25&&patientWeight<=90)&&(patientTargetHb>=110&&patientTargetHb<=150&&patientTargetHb>=(patientActualHb+10))&&(patientActualHb>=50&&patientActualHb<=140)&&(myIron= "Cosmofer"||"Monofer"||"Ferinject")&(myfactor===45.5 || 50  )
+  if ((patientHeight>=152&&patientHeight<=200)&&(patientWeight>=25&&patientWeight<=90)&&(patientTargetHb>=110&&patientTargetHb<=150&&patientTargetHb>=(patientActualHb+10))&&(patientActualHb>=50&&patientActualHb<=140)&&(myIron= "Cosmofer"||"Monofer"||"Ferinject")&&(myfactor===45.5 || 50  ))
    
 
  {    
