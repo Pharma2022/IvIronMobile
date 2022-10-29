@@ -1,20 +1,17 @@
 html{
  
-    padding: 0;
-    margin:0;
+  
     font-family: 'Lato', sans-serif;}
 
 body{
- 
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-  
+ border: 1px solid gold;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
     color: black;
     text-shadow: 0em ; 
        font-family: 'Lato', sans-serif;	
-
+width: 100%;
       margin: 0 ;
     padding: 0;
 
@@ -23,18 +20,19 @@ border: none;
     
 
 .container{
-  
-    display: flex;
+  border: 3px solid red;
+    display: inline-flex;
     flex-direction:column; 
-    justify-content:space-evenly;
-    min-height:100%;
+    justify-content:center;
+
     height: auto;
     
     width: auto;
-    margin: 0 3em; 
+    margin: 0 ;
     text-align: center;
-    align-self: center;
+   
     border-top: 0.25em solid darkslategray;
+    
 	padding-top: -0.5em;
     font-size:larger;
 }
@@ -47,7 +45,7 @@ font-size:4em;
     font-weight: 900pt;
     padding-bottom: 1.5em;
     margin-bottom:-0.5em;
-    border-top: 0.25em solid darkslategray;
+    border: 0.25em solid darkslategray;
 
 }
 h2,h3,h4,h5{
@@ -235,7 +233,7 @@ input{
 #calculate{
    display: flex; 
    justify-content:space-evenly;
-   flex-direction: row;
+  
     text-align: center;
     margin: 0em auto;
     width: 60%;
@@ -274,11 +272,13 @@ header{
     background: darkslategray;
     color: white;
     background: cover;
-    margin-bottom: 0.25em;
+    margin: 0;
+    padding;0;
     text-align: center;
     padding-bottom: 0.5em;
     text-shadow: 0em 0em 0.25em  black; 
     border-top: 0.3125em solid darkslategray;
+    
     
 }
 
