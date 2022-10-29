@@ -18,6 +18,18 @@ let ferinjectMessage=""
 let gl=`g/L`
 let actual=`Actual Hb: `
 let target=`Target Hb: `
+
+        
+function renderError(){  renderDose.innerHTML=""
+renderDose.innerHTML= `
+
+<h3><div> You have selected values outside the range(s)! </h3></div> 
+
+
+<h4 id="box">Please ensure all the values are correctly filled to meet the <span class ="finalCalc">maximum</span> and <span class ="finalCalc">minimum</span> parameters. Ensure you have clicked on a <span class ="finalCalc">gender</span>. If your patient's values fall <span class ="finalCalc">outside</span> the above ranges, enter the values within the range that are <span class="finalCalc">closest</span> to the patient values.</h4>
+
+ 
+`}
 male.addEventListener("click",function(e){
     e.preventDefault()
            myfactor=50
@@ -404,22 +416,17 @@ if(ironPrep==="Ferinject")
 
          
         render()
-                
+        
 
+        if (!((myfactor===45.5)||(myfactor===50))){
+            renderError()
+        }
+      
     }
 
     
 else {
-function renderError(){  renderDose.innerHTML=""
-                renderDose.innerHTML= `
-                
-                <h3><div> You have selected values outside the range(s)! </h3></div> 
-                
-              
-                <h4 id="box">Please ensure all the values are correctly filled to meet the <span class ="finalCalc">maximum</span> and <span class ="finalCalc">minimum</span> parameters. Ensure you have clicked on a <span class ="finalCalc">gender</span>. If your patient's values fall <span class ="finalCalc">outside</span> the above ranges, enter the values within the range that are <span class="finalCalc">closest</span> to the patient values.</h4>
-            
-                 
-                `}
+
         renderError()
 }
 
