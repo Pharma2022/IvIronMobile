@@ -1,19 +1,23 @@
 html{
-    margin: 0;
+ 
     padding: 0;
     font-family: 'Lato', sans-serif;}
 
 body{
  
-   display:inline-flex;
-flex-direction: column;
-justify-content:center;
-text-align: center; 
+   
     color: black;
     text-shadow: 0em ; 
        font-family: 'Lato', sans-serif;	
-     align-items: center;
-       margin: 0;
+	display:flex;
+	flex-direction:column;
+	margin:0em auto;
+    align-self: center;
+    justify-self: center;
+   justify-content:center;
+   align-content: center;
+text-align:center;
+       padding-top: 1em;
     padding: 0;
 width: 100%;
 border: none;
@@ -24,14 +28,16 @@ border: none;
   
     display: inline-flex;
     flex-direction:column; 
+    justify-content:center;
     min-height:100%;
     height: auto;
     min-width: 100%;
     width: auto;
     margin: 0em auto; 
     text-align: center;
+   
     border-top: 0.25em solid darkslategray;
-	
+	padding-top: -0.5em;
     font-size:larger;
 }
 h1,h2,h3,h4,h5{
@@ -62,11 +68,12 @@ h4{
 .inputLabel{
     display:    flex;
     
-    justify-content: center;
+    justify-content: space-evenly;
     height: 92.5%;
     width: 92.5%;
     padding: 1em;
     margin: 0em 2em;
+    margin-bottom:-2em;	
     text-align: center  ;
     
 
@@ -75,8 +82,9 @@ h4{
 .label,.input{
     display: inline-flex;
     flex-direction: column;
-    min-width: 40%;
+    min-width: 50%;
     max-width: 50%;
+    height:100%;
     margin: 0.25em auto;
     text-align: center;
     align-content: center;
@@ -84,9 +92,7 @@ h4{
     padding: 1.5em;  
 
 }
-.input{ 
-    height:100%;
-}
+
 
 
 
@@ -94,12 +100,12 @@ h4{
     display: inline-flex;
     
 	text-indent: 5em;
-    transform: translateX(1em);
+    transform: translateX(4em);
     text-align: center;
  
     justify-content: center;
     justify-items: center;
-    width:25rem;
+    width:80%;
     height: 6.5em;
     margin: 0em auto;
  
@@ -118,24 +124,19 @@ h4{
     text-align: center;
     justify-content: center;
     align-items: center;
-    transform: translateX(-7em);
+    transform: translateX(-5em);
 
 }
 
 label{
-    display: inline-flex;
-    flex-direction: column;
+   display: inline-flex;
+   flex-direction: column;
 
 height: auto;
    text-align: left;
    align-self: center;
    min-width: 10em;
-   max-width: 10em;
- 
-    /* margin-top:0.625em;	
-
-    margin-left: 6em;*/
-	
+   max-width: 10em;	
     font-weight: bolder;
    margin: 0em auto;
      		font-size: xx-large;
@@ -177,6 +178,8 @@ input{
 .gender{
     display: inline-block;
     
+   
+    
    margin: 0;
    
     border: 0.15em solid darkslategray ;
@@ -216,7 +219,7 @@ input{
 
 
 #ferinjectBtn,#monoferBtn,#cosmoferBtn{
-    margin: 3.5rem 1.25rem;
+    margin: 2.5rem 1.25rem;
     width: 9rem;
     padding: 0.75rem 0.25rem ;
     text-align: center;
@@ -257,7 +260,12 @@ input{
     text-shadow: 0em 0em 0em black;
 }
 
-
+h5{
+    color: grey;
+    margin: 0em auto;
+    text-align: center;
+    margin-left: 1.875em;
+}
 
     
 
@@ -332,17 +340,16 @@ padding: 0;
 
 
 #Ferinject,#Monofer,#Cosmofer,#guidelines,#reference-heading{
-  margin: 0em 1em;
-    
+  margin: 0em 0.5em;
+    font-size: small;
     font-weight: normal;
 }
-
 .references{
-font-size: large;
+font-size: x-large;
 width:auto;
-padding: 1rem;
 padding-bottom:-1rem;
-text-align: justify;
+text-indent: 2rem;
+	margin-bottom:1em;
 
 }
 
@@ -350,7 +357,7 @@ text-align: justify;
 
 .iConfirm{
     margin: 0em 2.5em;
-
+    margin-top:1em;	
     background: lightgrey;
     padding: 1.25em;    
     border: 0.0625em solid black;
@@ -390,27 +397,23 @@ text-align: justify;
    #reference-heading{
     text-decoration: underline;
     font-weight: bold;
-    margin-top:-1em;
-    font-size;xx-large;
-    
-    
+    margin-top: -1.25em;
+    margin-bottom: 0.625em;
+    font-size: large;
     
 }
-
 #references{
     
-    margin: 1em auto;
+    margin: 0em auto;
     display: flex;
     flex-direction: column;
-    padding:0em 1.25em;
-    justify-content: space-evenly;
-    text-align: justify;
+    text-align: left;
     border: 0.0625em solid gray;
-    font-size: large;
-     
+    font-size: medium;
+    
 	
     min-width: 40%; 
-    max-width: 70%;
+    max-width: 75%;
 }
 #shah{
     
@@ -420,16 +423,9 @@ text-align: justify;
     padding: 1.25em 1.5625em;
     margin: 0em auto;
     margin-top:1em;
-    font-size:large;
     min-width: 80%; 
   
     
-}
-#shah h4{
-color: grey;
-    margin: 0em auto;
-    text-align: center;
-    margin-left: 1.875em;
 }
 .red{
     display: inline;
