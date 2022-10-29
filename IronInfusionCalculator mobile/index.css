@@ -18,10 +18,10 @@ width:100%;
 
 .container{
     height: auto;
-width: 92.5%;
+width: 100%;
     display: inline-flex;
     flex-direction:column; 
-   
+   justify-content:space-evenly;
     margin: 0em auto; 
     text-align: center;
     border: 0.25em solid darkslategray;
