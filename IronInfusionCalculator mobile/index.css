@@ -90,8 +90,8 @@ h4{
 .labelMinMax{
     display: inline-flex;
     
-	text-indent: 5em;
-    transform: translateX(4em);
+	text-indent: 4.5em;
+    transform: translateX(2.5em);
     text-align: center;
  
     justify-content: center;
