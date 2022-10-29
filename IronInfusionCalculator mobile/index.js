@@ -41,7 +41,16 @@ female.addEventListener("click",function(e){
 }
 )
 
-
+function renderError(){  renderDose.innerHTML=""
+                renderDose.innerHTML= `
+                
+                <h3><div> You have selected values outside the range(s)! </h3></div> 
+                
+              
+                <h4 id="box">Please ensure all the values are correctly filled to meet the <span class ="finalCalc">maximum</span> and <span class ="finalCalc">minimum</span> parameters. Ensure you have clicked on a <span class ="finalCalc">gender</span>. Ensure that there is a <span class ="finalCalc">minimum 10g/L</span> difference between target Hb and actual Hb. If your patient's values fall <span class ="finalCalc">outside</span> the above ranges, enter the values within the range that are <span class="finalCalc">closest</span> to the patient values.</h4>
+            
+                 
+                `}
 
       function calculate(ironPrep){
            
@@ -64,8 +73,8 @@ female.addEventListener("click",function(e){
         }
                 
         
-  if ((patientHeight>=152&&patientHeight<=200)&&(patientWeight>=25&&patientWeight<=90)&&(patientTargetHb>=110&&patientTargetHb<=150&&patientTargetHb>=(patientActualHb+10))&&(patientActualHb>=50&&patientActualHb<=140)&&(myIron= "Cosmofer"||"Monofer"||"Ferinject")&&(
-factor===45.5 || factor===50  ))
+  if ((patientHeight>=152&&patientHeight<=200)&&(patientWeight>=25&&patientWeight<=90)&&(patientTargetHb>=110&&patientTargetHb<=150&&patientTargetHb>=(patientActualHb+10))&&(patientActualHb>=50&&patientActualHb<=140)&&(myIron= "Cosmofer"||"Monofer"||"Ferinject")
+)
    
 
  {    
@@ -411,18 +420,12 @@ if(ironPrep==="Ferinject")
 
     }
 
+if(factor=""){
+renderError()
+}
     
 else {
-function renderError(){  renderDose.innerHTML=""
-                renderDose.innerHTML= `
-                
-                <h3><div> You have selected values outside the range(s)! </h3></div> 
-                
-              
-                <h4 id="box">Please ensure all the values are correctly filled to meet the <span class ="finalCalc">maximum</span> and <span class ="finalCalc">minimum</span> parameters. Ensure you have clicked on a <span class ="finalCalc">gender</span>. Ensure that there is a <span class ="finalCalc">minimum 10g/L</span> difference between target Hb and actual Hb. If your patient's values fall <span class ="finalCalc">outside</span> the above ranges, enter the values within the range that are <span class="finalCalc">closest</span> to the patient values.</h4>
-            
-                 
-                `}
+
         renderError()
 }
 
