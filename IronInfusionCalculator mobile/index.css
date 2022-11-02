@@ -29,7 +29,7 @@ width: 100%;
     border: 0.25em solid darkslategray;
 	border-bottom:none;
     font-size:larger;
-    transform: translateX(0.5em);
+    transform: translateX(1.5em);
 }
 h1,h2,h3,h4,h5{
 	    font-family: 'Lato', sans-serif;	
@@ -63,8 +63,8 @@ h4{
     display:    flex;
     
     justify-content: space-evenly;
-    height: 92.5%;
-    width: 92.5%;
+    
+    width: 90%;
     padding: 1em;
     margin: 0em 2em;
 
@@ -74,11 +74,12 @@ h4{
 }
 
 .label,.input{
+    
     display: inline-flex;
     flex-direction: column;
-    min-width: 50%;
-    max-width: 50%;
-    height:100%;
+    min-width: 47.5%;
+    max-width: 47.5%;
+    height:auto;
     margin: 0.25em auto;
     text-align: center;
     align-content: center;
@@ -94,7 +95,7 @@ h4{
     display: inline-flex;
     
 	text-indent: 4.5em;
-    transform: translateX(2.5em);
+    transform: translateX(4.5em);
     text-align: center;
  
     justify-content: center;
@@ -108,7 +109,7 @@ h4{
 
 .inputRow{
      display: inline-flex;
-    
+  
     
     width: 25rem;
  
